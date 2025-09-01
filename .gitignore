@@ -46,40 +46,77 @@ fastlane/test_output
 # Code Coverage
 derived_data/
 
-# Local development files
-.env
-.env.*
-!.env.example
-
 # System Files
-# macOS
+# macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
+.Spotlight-V100
+.Trashes
 
 # Xcode
-.build/
+build/
+DerivedData/
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 *.xcworkspace/contents.xcworkspacedata
 **/xcuserdata/
+*.xcodeproj/xcuserdata/*
+*.xcworkspace/xcuserdata/*
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
 
 # Build artifacts
-PomoTrak.dmg
+*.dmg
 dmg_build/
 *.dSYM.zip
 *.dSYM
+*.o
+*.out
+*.a
+*.dll
+*.so
+*.dylib
 
 # Development files
-scratch.yxy
-exportOptions.plist
-entitlements.plist
-
-# Local Configuration
 .env
 .env.local
+*.env
+
+# Local configuration
+local.properties
+
+# App specific
+*.app
+*.app.dSYM
+*.ipa
+*.dSYM.zip
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/README.md
+
+# Code Coverage
+derived_data/
+*.profdata
+*.xccoverage
+*.gcda
+*.gcno
+
+# Logs
+logs/
+*.log
 
 # Personal files
 *.personal
+*.backup
