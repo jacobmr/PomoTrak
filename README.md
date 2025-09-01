@@ -1,20 +1,31 @@
 # PomoTrak
 
-A simple and effective Pomodoro timer application for macOS.
+A professional time tracking and productivity tool for 1099 contractors, built on the foundation of the Pomodoro technique.
 
 ## About This Fork
 
-This project is a fork of [mattato](https://github.com/mreider/mattato) by [mreider](https://github.com/mreider), with the following improvements:
-- Modernized codebase with Swift concurrency (async/await)
-- Fixed memory leaks and concurrency issues
-- Improved build system and packaging
-- Added DMG creation and notarization
+This project evolves [mattato](https://github.com/mreider/mattato) by [mreider](https://github.com/mreider) into a comprehensive time tracking solution for independent contractors. While maintaining the simplicity of the original Pomodoro timer, it adds essential features for professional freelancers and consultants.
 
-### Key Differences from Original
-- Uses Swift Concurrency for better performance and reliability
-- Simplified build process with shell scripts
-- Added proper code signing and notarization for macOS
-- Updated documentation and project structure
+### Key Features for 1099 Contractors
+- **Project & Client Management**
+  - Track time across multiple clients and projects
+  - Set custom hourly rates per project
+  - Organize work with tags and status tracking
+
+- **Professional Time Tracking**
+  - Billable vs. non-billable hours
+  - Detailed session notes and task descriptions
+  - Comprehensive time reports
+
+- **Invoicing**
+  - Generate professional invoices
+  - Export to PDF/CSV
+  - Track payment status
+
+### Technical Improvements
+- Modern Swift concurrency implementation
+- Enhanced data management
+- Improved build and deployment process
 
 ## Download
 
