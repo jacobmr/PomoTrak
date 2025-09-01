@@ -52,9 +52,34 @@ derived_data/
 !.env.example
 
 # System Files
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-#My sftuff
+# Xcode
+.build/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/contents.xcworkspacedata
+**/xcuserdata/
+
+# Build artifacts
+PomoTrak.dmg
+dmg_build/
+*.dSYM.zip
+*.dSYM
+
+# Development files
 scratch.yxy
+exportOptions.plist
+entitlements.plist
+
+# Local Configuration
+.env
+.env.local
+
+# Personal files
+*.personal
