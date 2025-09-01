@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+.build/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcsharedata/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/contents.xcworkspacedata
+**/xcuserdata/
+
+# Build artifacts
+*.dmg
+dmg_build/
+*.dSYM.zip
+*.dSYM
+
+# Development files
+*.xcodeproj
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+# Local Configuration
+.env
+.env.local
+
+# Personal files
+*.personal
